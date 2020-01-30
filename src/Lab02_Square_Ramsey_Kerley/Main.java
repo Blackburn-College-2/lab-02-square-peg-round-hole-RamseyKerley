@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package emptyjavaproject;
+package Lab02_Square_Ramsey_Kerley;
 
 /**
  *
@@ -16,6 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Square sq = new Square(8.0);
+        Square sq2 = new Square(7000.0);
+        
+        Rectangle rect = new Rectangle(79,898);
+        Rectangle rect2 = new Rectangle(79,898);
     }
     
 }
