@@ -22,6 +22,11 @@ public class Square extends Rectangle {
         System.out.println("Width = " + super.getHeight() + 
                 " Height = " + super.getHeight());
     }
+    
+    @Override
+   public String toString(){
+       return "Square is " + side +" by " + side;
+   }
 
     
 }

@@ -19,8 +19,8 @@ public class Main {
         Square sq = new Square(8.0);
         Square sq2 = new Square(7000.0);
         
-        Rectangle rect = new Rectangle(79,898);
-        Rectangle rect2 = new Rectangle(79,898);
+        Rectangle rect = new Rectangle(79,89);
+        Rectangle rect2 = new Rectangle(79,88);
     }
     
 }
