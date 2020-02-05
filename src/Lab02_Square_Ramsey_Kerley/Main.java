@@ -18,9 +18,12 @@ public class Main {
         // TODO code application logic here
         Square sq = new Square(8.0);
         Square sq2 = new Square(7000.0);
+
+        Rectangle rect = new Rectangle(69, 89);
+        Rectangle rect2 = new Rectangle(79, 88);
         
-        Rectangle rect = new Rectangle(79,89);
-        Rectangle rect2 = new Rectangle(79,88);
+        System.out.println(rect);
+        System.out.println(sq2);
     }
-    
+
 }

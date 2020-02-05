@@ -12,21 +12,27 @@ package Lab02_Square_Ramsey_Kerley;
 public class Square extends Rectangle {
 
     private double side;
-
+    
     /**
      *
      * @param side
      */
     public Square(double side) {
         super(side, side);
-        System.out.println("Width = " + super.getHeight() + 
-                " Height = " + super.getHeight());
+        this.side = side;
+        //System.out.println("Width = " + super.getHeight()
+          //      + " Height = " + super.getHeight());
+       
+        
     }
     
-    @Override
-   public String toString(){
-       return "Square is " + side +" by " + side;
-   }
+      
 
-    
+    @Override
+    public String toString() {
+     Measurement sqaure = new Measurement(side ,"Meter");
+     String s = sqaure.toString();
+        return "Square is " + s + " by " + s;
+    }
+
 }

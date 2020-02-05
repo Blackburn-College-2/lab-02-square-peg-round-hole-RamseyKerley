@@ -6,6 +6,7 @@
 package Lab02_Square_Ramsey_Kerley;
 
 /**
+ * This class is the blue print to make a rectangle
  *
  * @author ramsey.kerley
  */
@@ -26,18 +27,23 @@ public class Rectangle {
     public double getPerimeter() {
         return (width + height) * 2;
     }
-    
-    public double getWidth(){
+
+    public double getWidth() {
         return width;
     }
-    
-    public double getHeight(){
+
+    public double getHeight() {
         return height;
     }
-    
-      @Override
-   public String toString(){
-       return "Square is " + width +" by " + height;
-   }
+
+    @Override
+    public String toString() {
+
+        Measurement rectangle = new Measurement(width, "Meter");
+        Measurement rect = new Measurement(height, "Meter");
+        String s = rectangle.toString();
+        String s2 = rect.toString();
+        return "The Rectangle is " + s + " by " + s2;
+    }
 
 }
