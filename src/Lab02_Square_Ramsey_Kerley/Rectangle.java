@@ -19,11 +19,17 @@ public class Rectangle {
         width = w;
         height = h;
     }
-
+    /**
+     * gets the area
+     * @return 
+     */
     public double getArea() {
         return width * height;
     }
-
+    /**
+     * gets the perimeter
+     * @return 
+     */
     public double getPerimeter() {
         return (width + height) * 2;
     }
