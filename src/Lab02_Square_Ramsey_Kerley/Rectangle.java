@@ -36,6 +36,12 @@ public class Rectangle {
         return height;
     }
 
+    public Measurement getEfficiency() {
+        double x = this.getArea() / this.getPerimeter();
+        Measurement efficiency = new Measurement(x, "meter");
+        return efficiency;
+    }
+
     @Override
     public String toString() {
 

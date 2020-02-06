@@ -12,8 +12,9 @@ package Lab02_Square_Ramsey_Kerley;
 public class Square extends Rectangle {
 
     private double side;
-    
+
     /**
+     * This creates a square and a rectangle
      *
      * @param side
      */
@@ -21,17 +22,14 @@ public class Square extends Rectangle {
         super(side, side);
         this.side = side;
         //System.out.println("Width = " + super.getHeight()
-          //      + " Height = " + super.getHeight());
-       
-        
+        //      + " Height = " + super.getHeight());
+
     }
-    
-      
 
     @Override
     public String toString() {
-     Measurement sqaure = new Measurement(side ,"Meter");
-     String s = sqaure.toString();
+        Measurement sqaure = new Measurement(side, "Meter");
+        String s = sqaure.toString();
         return "Square is " + s + " by " + s;
     }
 
